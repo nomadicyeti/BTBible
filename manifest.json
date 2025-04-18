@@ -1,0 +1,48 @@
+{
+  "name": "Bhutan's Bible",
+  "short_name": "BT Bible",
+  "start_url" : "/app/",
+  "scope" : "/app",
+  "display": "standalone",
+  "description": "Bhutan's Bible is designed specifically for Bhutan. Come and read the Christian Scriptures in Dzongkha and Nepali.\n*Brand new AI assistant is designed to help you get the most out of your readings\n*Dzongkha currently has Genesis, Exodus, Numbers, Deuteronomy, Ruth, Psalms, Proverbs, and Jonah. More Scriptures will be added as they are translated.\n*Nepali includes the Nepali Contemporary Version in Devanagari script and transliterated into Latin script (English lettering) for Nepali speaking Bhutanese\n\nFeatures\n- Use the AI assistant to help you understand the passage, develop group study questions, even plan the outline of a talk\n- Listen to the audio recording of Genesis, Ruth, and Jonah in Dzongkha while following along in the Scripture text.\n- Highlight, bookmark, and take notes on passages\n- Share passages with beautiful photos from around Bhutan\n- Sync content across devices\n- Watch introductory videos for passages to help you understand what you're reading (Nepali only)",
+  "dir": "ltr",
+  "lang": "ENG",
+  "background_color": "#FF9800",
+  "theme_color":"#FF9800",
+  "icons": [
+    {
+      "src": "./icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-adaptive.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "related_applications": [
+{ "platform" : "play", "url": "https://play.google.com/store/apps/details?id=com.dzongkha.bible" },
+{ "platform": "itunes", "url": "https://apps.apple.com/app/<appname>/id6450920243" }
+  ]
+}

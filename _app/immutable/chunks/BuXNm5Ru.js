@@ -1,0 +1,1 @@
+import{L as S,C as h,B as k,q,S as B}from"./D2BM3cv1.js";function t(r,i){return r===i||(r==null?void 0:r[B])===i}function c(r={},i,a,L){return S(()=>{var f,s;return h(()=>{f=s,s=[],k(()=>{r!==a(...s)&&(i(r,...s),f&&t(a(...f),r)&&i(null,...f))})}),()=>{q(()=>{s&&t(a(...s),r)&&i(null,...s)})}}),r}export{c as b};

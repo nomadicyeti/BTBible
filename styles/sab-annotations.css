@@ -1,0 +1,14 @@
+div.annotation-item-reference-bcDZO { font-family: Dzongkha; text-align: start; }
+div.annotation-item-title-bcDZO { font-family: Dzongkha; text-align: start; }
+div.annotation-item-text-bcDZO { font-family: Dzongkha; text-align: start; }
+div.annotation-item-reference-bcNSR { font-family: Latin; text-align: start; }
+div.annotation-item-title-bcNSR { font-family: Latin; text-align: start; }
+div.annotation-item-text-bcNSR { font-family: Latin; text-align: start; }
+div.annotation-item-reference-bcNCV { font-family: Nepali; text-align: start; }
+div.annotation-item-title-bcNCV { font-family: Nepali; text-align: start; }
+div.annotation-item-text-bcNCV { font-family: Nepali; text-align: start; }
+.annotation-float-left { float: inline-start; overflow:hidden; }
+.annotation-float-right { float: inline-end; overflow:hidden; }
+.annotation-align-left { text-align: start; }
+.annotation-align-right { text-align: end; }
+.annotation-item-content-block { overflow:hidden; margin-inline-start: 4px; margin-inline-end: 4px; }

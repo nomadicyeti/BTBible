@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="/app/icons/favicon.png" />
+        <link rel="apple-touch-icon" href="/app/icons/apple-touch-icon.png" />
+        <link rel="manifest" href="/app/manifest.json" />
+        <link rel="stylesheet" type="text/css" href="/app/spinner.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
+		<link rel="modulepreload" href="/app/_app/immutable/entry/start.D7rU7WsW.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/CroP3Izp.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/D2BM3cv1.js">
+		<link rel="modulepreload" href="/app/_app/immutable/entry/app.DKhCHW2D.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/BRe-H2Zv.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/CRc66pB2.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/Bg9kRutz.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/C5aigyhq.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/DGwgOdBI.js">
+		<link rel="modulepreload" href="/app/_app/immutable/chunks/BuXNm5Ru.js">
+    </head>
+
+    <body>
+        <span class="spin" />
+        <div>
+			<script>
+				{
+					__sveltekit_1qnpma8 = {
+						base: new URL('.', location).pathname.slice(0, -1),
+						assets: "/app"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/app/_app/immutable/entry/start.D7rU7WsW.js"),
+						import("/app/_app/immutable/entry/app.DKhCHW2D.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('/app/service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+    </body>
+</html>
